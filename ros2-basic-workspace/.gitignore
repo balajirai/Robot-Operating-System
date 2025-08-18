@@ -1,0 +1,18 @@
+# ROS2 build artifacts
+build/*
+install/*
+log/*
+
+# But keep the placeholder file
+!build/.gitkeep
+!install/.gitkeep
+!log/.gitkeep
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode / IDE settings
+.vscode/
+.idea/
