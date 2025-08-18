@@ -1,5 +1,5 @@
 # ROS2 Installation
-<pre>
+```bash
 # Set up locale
 sudo apt update && sudo apt install locales
 sudo locale-gen en_US en_US.UTF-8
@@ -29,6 +29,6 @@ source /opt/ros/humble/setup.bash
 
 # Install colcon (build tool) and other tools
 sudo apt install python3-colcon-common-extensions python3-rosdep2
-</pre>
+```
 
 For more info, please refer to ros2 [official documentation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
