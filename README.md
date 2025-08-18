@@ -16,7 +16,7 @@ sudo dpkg -i /tmp/ros2-apt-source.deb
 
 # Install ROS 2
 sudo apt update && sudo apt upgrade
-# sudo apt install ros-humble-desktop         # Provide GUID (But takes around 2GB+)
+# sudo apt install ros-humble-desktop         # Provide GUI tools (But takes around 2GB+)
 
 # If ROS Humble Desktop is not prefered then,
 # ROS-Base Install (Bare Bones)
