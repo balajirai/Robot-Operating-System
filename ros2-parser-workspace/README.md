@@ -26,7 +26,7 @@ colcon build --packages-select bag_reader_cpp
 ## 6. Run the parser
 ```bash
 source install/setup.bash
-ros2 run bag_reader_cpp simple_bag_reader /full/path/to/subset
+ros2 run bag_reader_cpp simple_bag_reader subset
 ```
 > [!Note]
 > Here `subset` is a sample/recorded rosbag folder which contains: `metadata.yaml` and `subset_0.db3`
