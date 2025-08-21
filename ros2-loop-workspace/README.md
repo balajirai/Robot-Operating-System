@@ -25,7 +25,7 @@ cd ~/ros2-loop-workspace/src
 ros2 pkg create ros2_loop_demo_cpp --build-type ament_cmake --license Apache-2.0 --dependencies rclcpp std_msgs rosbag2_cpp
 ```
 
-## 3. Add the minimal C++ nodes (talker + listener)
+## 3. Add the C++ nodes (Node A + Node B)
 - [Node A ](src/ros2_loop_demo_cpp/src/node_a.cpp)
 - [Node B ](src/ros2_loop_demo_cpp/src/node_b.cpp)
 
